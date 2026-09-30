@@ -1,0 +1,11 @@
+site_name: "desafio-backend"
+
+nav:
+  - Home: index.md
+  - Contributing: CONTRIBUTING.md
+
+plugins:
+  - techdocs-core
+  - kroki
+
+docs_dir: docs/
