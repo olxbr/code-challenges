@@ -59,26 +59,6 @@ O que **não** avaliamos: quantidade de código, número de funcionalidades extr
 
 Fique à vontade para incrementar o desafio, desde que o essencial esteja bem resolvido. Preferimos um escopo menor e bem compreendido a um escopo grande que você não domina.
 
-## Prazo e entrega
-
-- **Prazo:** 7 dias corridos a partir do recebimento.
-- **Esforço esperado:** cerca de [X] horas. O prazo existe para dar flexibilidade, não para ser preenchido.
-- Ao finalizar, envie um e-mail ao recrutador com:
-  - o link do repositório privado;
-  - a confirmação de que os avaliadores já têm acesso.
-
-Vale o conteúdo do repositório no momento do envio do e-mail. Commits posteriores não serão considerados.
-
-## Apresentação
-
-Depois da entrega, agendaremos uma conversa de até 1h com os avaliadores:
-
-- você apresenta a solução e as principais decisões;
-- conversamos sobre trade-offs, alternativas e o uso de IA;
-- podemos pedir uma pequena alteração ou evolução do código ao vivo.
-
-Conheça bem o que entregou, inclusive as partes geradas por IA.
-
 ## Dúvidas
 
 Qualquer dúvida sobre o enunciado, fale com o time de Atração.
