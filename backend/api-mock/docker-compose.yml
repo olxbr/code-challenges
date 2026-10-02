@@ -1,0 +1,12 @@
+services:
+  moderation-api:
+    build: .
+    ports:
+      - "8787:8787"
+    cap_drop:
+      - ALL
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8787/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
