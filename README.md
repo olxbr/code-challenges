@@ -57,7 +57,13 @@ Sua entrega será avaliada por no mínimo 2 engenheiros do Grupo OLX, em duas et
 
 O que **não** avaliamos: quantidade de código, número de funcionalidades extras ou quais ferramentas pagas você usou.
 
-Fique à vontade para incrementar o desafio, desde que o essencial esteja bem resolvido. Preferimos um escopo menor e bem compreendido a um escopo grande que você não domina.
+Preferimos um escopo menor e bem compreendido a um escopo grande que você não domina. Resolva bem o essencial.
+
+## Entrega
+
+- Crie um repositório **privado** com a sua solução.
+- Adicione os avaliadores como colaboradores para que tenham acesso ao repositório.
+- Vale o conteúdo do repositório na data combinada de entrega: **commits posteriores não serão considerados**.
 
 ## Dúvidas
 
