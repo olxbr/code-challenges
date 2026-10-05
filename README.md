@@ -22,8 +22,9 @@ Avaliamos o seu senso crítico e o seu entendimento do resultado, não o plano q
 
 ## Como desenvolver
 
-1. Clone este repositório.
-2. Faça commits incrementais ao longo do desenvolvimento. O histórico nos ajuda a entender a evolução do seu raciocínio.
+1. Crie um repositório privado novo com o conteúdo deste repositório. Não use fork: forks de repositório público são sempre públicos.
+2. Adicione os avaliadores como colaboradores.
+3. Faça commits incrementais ao longo do desenvolvimento. O histórico nos ajuda a entender a evolução do seu raciocínio.
 
 ## O que entregar
 
