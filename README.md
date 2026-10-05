@@ -22,7 +22,7 @@ Avaliamos o seu senso crítico e o seu entendimento do resultado, não o plano q
 
 ## Como desenvolver
 
-1. Clone este repositório.
+1. Crie um repositório privado novo com o conteúdo deste repositório. Não use fork: forks de repositório público são sempre públicos.
 2. Faça commits incrementais ao longo do desenvolvimento. O histórico nos ajuda a entender a evolução do seu raciocínio.
 
 ## O que entregar
@@ -61,8 +61,8 @@ Preferimos um escopo menor e bem compreendido a um escopo grande que você não 
 
 ## Entrega
 
-- Crie um repositório **privado** com a sua solução.
-- Adicione os avaliadores como colaboradores para que tenham acesso ao repositório.
+- Ao finalizar, adicione como colaboradores os avaliadores indicados no e-mail do recrutador.
+- Avise o recrutador por e-mail quando terminar.
 - Vale o conteúdo do repositório na data combinada de entrega: **commits posteriores não serão considerados**.
 
 ## Dúvidas
