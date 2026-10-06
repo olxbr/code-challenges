@@ -48,10 +48,11 @@ Sua entrega será avaliada por no mínimo 2 engenheiros do Grupo OLX, em duas et
 | Critério | O que observamos | Onde observamos |
 | --- | --- | --- |
 | **Manutenibilidade** | O código é legível e fácil de alterar? A solução é proporcional ao problema, sem código ou abstrações sobrando? | Código |
-| **Desenho** | Como as responsabilidades foram separadas? Você sabe justificar essa estrutura? | Código, `DECISIONS.md` |
+| **Desenho** | Como as responsabilidades foram separadas? As fronteiras entre as partes estão claras? | Código |
 | **Qualidade** | Os testes cobrem o que realmente importa e validam comportamento? Seria fácil adaptá-los se o comportamento mudasse? | Testes |
+| **Documentação** | Quanto do seu projeto alguém consegue entender sem precisar te perguntar nada? | `README.md`, código |
 | **Desempenho** | A performance é adequada ao problema? Você entende os gargalos e como evoluiria a solução? | Código, apresentação |
-| **Decisões e trade-offs** | As escolhas foram conscientes? Alternativas foram consideradas? Ambiguidades foram tratadas de forma explícita? | `DECISIONS.md` |
+| **Decisões e trade-offs** | Por que você escolheu assim? Que alternativas considerou e descartou? Ambiguidades foram tratadas de forma explícita? | `DECISIONS.md`, apresentação |
 | **Uso crítico de IA** | Como você conduziu, validou e corrigiu o que a IA produziu? | `AI_USAGE.md`, apresentação |
 | **Domínio da solução** | Você explica qualquer parte do código e consegue alterá-lo? | Apresentação |
 
@@ -61,9 +62,21 @@ Preferimos um escopo menor e bem compreendido a um escopo grande que você não 
 
 ## Entrega
 
+- **Prazo:** 7 dias corridos a partir do recebimento deste desafio.
+- **Esforço esperado:** 4 a 8 horas de trabalho efetivo. O prazo existe para caber na sua rotina, não para ser preenchido.
 - Ao finalizar, adicione como colaboradores os avaliadores indicados no e-mail do recrutador.
 - Avise o recrutador por e-mail quando terminar.
-- Vale o conteúdo do repositório na data combinada de entrega: **commits posteriores não serão considerados**.
+- Vale o conteúdo do repositório no momento do envio do e-mail: **commits posteriores não serão considerados**.
+
+## Apresentação
+
+Depois da entrega, agendamos uma conversa com os avaliadores, numa janela de até 1h30 que pode terminar antes sem nenhum prejuízo:
+
+- você apresenta a solução e as principais decisões;
+- conversamos sobre trade-offs, alternativas e o uso de IA;
+- podemos pedir uma pequena alteração ou evolução do código ao vivo.
+
+Conheça bem o que entregou, inclusive as partes geradas por IA.
 
 ## Dúvidas
 
