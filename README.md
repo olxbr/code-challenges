@@ -62,8 +62,8 @@ Preferimos um escopo menor e bem compreendido a um escopo grande que você não 
 
 ## Entrega
 
-- **Prazo:** 7 dias corridos a partir do recebimento deste desafio.
-- **Esforço esperado:** 4 a 8 horas de trabalho efetivo. O prazo existe para caber na sua rotina, não para ser preenchido.
+- **Prazo:** 7 dias corridos a partir do recebimento. Se precisar de mais tempo, avise o recrutador antes do fim do prazo.
+- **Esforço esperado:** 4 a 6 horas de trabalho no total, não por dia. O prazo é longo de propósito, para caber na sua rotina.
 - Ao finalizar, adicione como colaboradores os avaliadores indicados no e-mail do recrutador.
 - Avise o recrutador por e-mail quando terminar.
 - Vale o conteúdo do repositório no momento do envio do e-mail: **commits posteriores não serão considerados**.
@@ -75,8 +75,6 @@ Depois da entrega, agendamos uma conversa com os avaliadores, numa janela de at�
 - você apresenta a solução e as principais decisões;
 - conversamos sobre trade-offs, alternativas e o uso de IA;
 - podemos pedir uma pequena alteração ou evolução do código ao vivo.
-
-Conheça bem o que entregou, inclusive as partes geradas por IA.
 
 ## Dúvidas
 
