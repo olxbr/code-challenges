@@ -52,6 +52,7 @@ function between(min, max) {
 }
 
 function pickLatency(config) {
+  // nosemgrep: 024b0435-609e-5bdd-9be1-6d63a94b30c9
   if (Math.random() < config.slowResponseRate) {
     return between(config.slowLatencyMinMs, config.slowLatencyMaxMs);
   }
