@@ -188,13 +188,13 @@ function createServer(config = loadConfig()) {
       return sendJson(res, 404, { error: 'not_found' });
     }
 
-    // Problema 1: algumas chamadas ficam muito lentas (5 a 10 s).
+    // Simula variação de latência: algumas chamadas levam de 5 a 10 s.
     // O corpo é lido antes do atraso para não deixar o socket pendurado.
     const body = isCreate ? await readBody(req) : null;
     await new Promise((resolve) => setTimeout(resolve, pickLatency(config)));
 
-    // Problema 2: algumas chamadas falham com 500. Ocorre antes de qualquer
-    // escrita, então uma criação que falha nunca é persistida.
+    // Simula disponibilidade intermitente. A resposta ocorre antes de qualquer
+    // escrita, então uma criação que recebe 500 nunca é persistida.
     if (Math.random() < config.errorRate) {
       return sendJson(res, 500, { error: 'internal_error' });
     }

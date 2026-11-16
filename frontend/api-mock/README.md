@@ -20,6 +20,6 @@ docker compose up
 
 Para parar, use `Ctrl+C`. Ao reiniciar, os anúncios criados por você são descartados.
 
-## Atenção
+## Comportamento da API
 
-Esta API **tem problemas conhecidos que não serão corrigidos**: algumas respostas demoram muito e outras falham com erro 500. Eles fazem parte do desafio. Leia a [documentação completa da API](./API.md) antes de começar.
+Algumas respostas podem levar de 5 a 10 segundos, e outras podem retornar um erro 500. Leia a [documentação completa da API](./API.md) para conhecer esses comportamentos e saber como reproduzi-los.

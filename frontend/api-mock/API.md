@@ -4,18 +4,18 @@ API que simula o backend de um marketplace. Para subir o serviço, veja o [READM
 
 Base URL local: `http://localhost:8788`
 
-## Problemas conhecidos (não serão corrigidos)
+## Comportamento operacional
 
-Este backend é uma dependência que você não controla. Ele tem dois problemas **intencionais** em `GET /v1/ads` e `POST /v1/ads`. Não altere o `server.js`: adapte a sua aplicação para conviver com eles.
+As rotas `GET /v1/ads` e `POST /v1/ads` podem apresentar variações de latência e disponibilidade.
 
-| Problema | O que acontece | Frequência padrão |
+| Condição | O que acontece | Frequência padrão |
 | --- | --- | --- |
 | Resposta lenta | A chamada demora de **5 a 10 segundos** para responder. Nas demais, a latência fica entre 100 e 600 ms. | ~15% das chamadas |
 | Erro interno | A chamada responde `500 {"error": "internal_error"}`. | ~10% das chamadas |
 
-Os dois ocorrem de forma aleatória e independente, então uma chamada pode ser lenta e ainda terminar em `500`. Uma tentativa de criação que termina em `500` **não** cria o anúncio. `GET /health` não é afetado.
+As condições ocorrem de forma aleatória e independente, então uma chamada pode ser lenta e ainda terminar em `500`. Uma tentativa de criação que termina em `500` **não** cria o anúncio. `GET /health` não é afetado.
 
-Para reproduzir os cenários com facilidade, ajuste as probabilidades ao subir o servidor:
+Para reproduzir cada condição, ajuste as probabilidades ao subir o servidor:
 
 ```bash
 # Toda chamada falha com 500
@@ -24,7 +24,7 @@ ERROR_RATE=1 SLOW_RESPONSE_RATE=0 node server.js
 # Toda chamada é lenta
 ERROR_RATE=0 SLOW_RESPONSE_RATE=1 node server.js
 
-# Sem problemas (útil para isolar o fluxo feliz)
+# Desativa as variações operacionais
 ERROR_RATE=0 SLOW_RESPONSE_RATE=0 node server.js
 ```
 

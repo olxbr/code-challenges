@@ -8,43 +8,43 @@ A interface deve contemplar:
 
 ### 1. Listar anúncios
 
-Exibe os anúncios em cards com imagem, título, preço, categoria e localização (quando existir).
+Permita que a pessoa consulte os anúncios fornecidos pela API.
 
-- Paginação.
-- Filtro por categoria.
-- Busca textual por título e descrição.
-- Contagem de resultados.
-- Os cards que não correspondem à busca e ao filtro não devem aparecer.
+A listagem deve oferecer:
+
+- paginação;
+- filtro por categoria;
+- busca textual por título e descrição.
+
+Busca, filtro e paginação devem funcionar em conjunto. As decisões de comportamento e apresentação ficam a seu critério.
 
 ### 2. Criar anúncio
 
-Formulário com título, descrição, preço, categoria e URL da imagem.
+Permita a criação de um anúncio com os campos e regras definidos no contrato da API.
 
-- Valide os campos na interface e mostre os erros próximos a cada campo.
-- Ao publicar com sucesso, a pessoa deve perceber que deu certo e o anúncio deve estar disponível na listagem.
+A interface deve comunicar o resultado da operação e permitir que o anúncio criado seja encontrado posteriormente na listagem. A forma de integrar esses fluxos fica a seu critério.
 
 ### 3. Estados da interface
 
-Contemple os estados que a pessoa usuária encontra ao usar a aplicação: carregamento, lista vazia, nenhum resultado para a busca ou o filtro, falha ao carregar, envio em andamento e falha ao publicar.
+A referência visual sugere alternativas de experiência para lidar com os comportamentos da API. Fique à vontade para seguir essas sugestões, questioná-las ou propor caminhos que considere melhores, desde que consiga justificar suas escolhas.
 
 ## Referência visual
 
-[`handoff.png`](./handoff.png) mostra uma proposta de interface, com layout desktop e mobile, formulário e estados. Use-a como referência de conteúdo e hierarquia.
+O [`handoff.png`](./handoff.png) apresenta uma proposta de interface para o desafio.
+
+A imagem não é uma especificação nem um checklist. Os componentes, estados e comportamentos representados são exemplos. Você pode seguir a proposta, adaptá-la ou questioná-la, desde que atenda às capacidades obrigatórias do enunciado e consiga justificar suas escolhas.
 
 [![Referência visual do desafio: listagem desktop e mobile, formulário de criação e estados da interface](./handoff.png)](./handoff.png)
 
-**Não esperamos fidelidade visual.** Você pode adaptar o layout, e o que a imagem não mostra fica a seu critério.
-
 ## A API
 
-Você vai consumir uma API local que fornecemos, na pasta [`api-mock`](../api-mock). **Comece pelo [guia para rodá-la](../api-mock/README.md)** e leia a [documentação](../api-mock/API.md), em especial a seção de problemas conhecidos.
+Você vai consumir uma API local que fornecemos, na pasta [`api-mock`](../api-mock). **Comece pelo [guia para rodá-la](../api-mock/README.md)** e leia a [documentação](../api-mock/API.md), em especial a seção de comportamento operacional.
 
 Trate a API como um serviço externo que você não controla. Não altere o código dela.
 
 ## Tecnologias
 
-- **Sugeridas:** React, TypeScript e Tailwind CSS. Para os componentes, [Base UI](https://base-ui.com) ou [shadcn/ui](https://ui.shadcn.com) são boas opções, mas qualquer biblioteca ou implementação própria é aceita.
-- **Livre:** você pode usar outro framework ou linguagem. Se fugir do sugerido, conte o motivo no `DECISIONS.md`.
+A escolha de linguagem, framework, bibliotecas e ferramentas é livre. A solução deve funcionar em um navegador e incluir instruções simples de execução.
 
 ## O que entregar
 
