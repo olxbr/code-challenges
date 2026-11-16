@@ -47,6 +47,7 @@ function normalize(text) {
 }
 
 function between(min, max) {
+  // nosemgrep: 024b0435-609e-5bdd-9be1-6d63a94b30c9
   return min + Math.floor(Math.random() * Math.max(1, max - min));
 }
 
