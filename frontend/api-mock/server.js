@@ -197,6 +197,7 @@ function createServer(config = loadConfig()) {
 
     // Simula disponibilidade intermitente. A resposta ocorre antes de qualquer
     // escrita, então uma criação que recebe 500 nunca é persistida.
+    // nosemgrep: 024b0435-609e-5bdd-9be1-6d63a94b30c9
     if (Math.random() < config.errorRate) {
       return sendJson(res, 500, { error: 'internal_error' });
     }
