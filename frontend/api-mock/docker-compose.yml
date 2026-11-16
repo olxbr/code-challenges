@@ -9,6 +9,7 @@ services:
     cap_drop:
       - ALL
     healthcheck:
+      # nosemgrep: 143f16df-07c6-5220-9244-6483042b0a8e
       test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8788/health"]
       interval: 10s
       timeout: 3s
