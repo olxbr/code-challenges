@@ -1,0 +1,16 @@
+services:
+  ads-api:
+    build: .
+    ports:
+      - "8788:8788"
+    environment:
+      ERROR_RATE: ${ERROR_RATE:-0.1}
+      SLOW_RESPONSE_RATE: ${SLOW_RESPONSE_RATE:-0.15}
+    cap_drop:
+      - ALL
+    healthcheck:
+      # nosemgrep: 143f16df-07c6-5220-9244-6483042b0a8e
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:8788/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
