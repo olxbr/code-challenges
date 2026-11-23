@@ -4,11 +4,11 @@
 
 Construa a interface web de um **marketplace de anúncios**, onde pessoas podem publicar anúncios e consultar os já publicados.
 
-A interface deve contemplar:
+O enunciado descreve o que a aplicação precisa resolver, mas não existe uma única resposta esperada. Você tem liberdade para usar a criatividade e tomar decisões de experiência, arquitetura e engenharia que façam sentido para a sua solução.
 
 ### 1. Listar anúncios
 
-Permita que a pessoa consulte os anúncios fornecidos pela API.
+Permita que a pessoa explore os anúncios fornecidos pela API, combinando:
 
 A listagem deve oferecer:
 
@@ -16,23 +16,26 @@ A listagem deve oferecer:
 - filtro por categoria;
 - busca textual por título e descrição.
 
-Busca, filtro e paginação devem funcionar em conjunto. As decisões de comportamento e apresentação ficam a seu critério.
+Você decide como esses controles interagem, como os resultados são exibidos e como a navegação se comporta ao longo do uso.
 
 ### 2. Criar anúncio
 
-Permita a criação de um anúncio com os campos e regras definidos no contrato da API.
+Permita a publicação de um novo anúncio respeitando os campos e regras definidos no contrato da API.
 
-A interface deve comunicar o resultado da operação e permitir que o anúncio criado seja encontrado posteriormente na listagem. A forma de integrar esses fluxos fica a seu critério.
+A pessoa deve entender o resultado da operação e conseguir encontrar o anúncio publicado na listagem. Fica a seu critério como conduzir esse fluxo, do preenchimento à exibição na listagem.
 
-### 3. Estados da interface
+### 3. Experiência de uso
 
-A referência visual sugere alternativas de experiência para lidar com os comportamentos da API. Fique à vontade para seguir essas sugestões, questioná-las ou propor caminhos que considere melhores, desde que consiga justificar suas escolhas.
+Pense na aplicação como um produto real:
+
+- ela será utilizada por diferentes públicos, em diferentes dispositivos e contextos de uso — busque torná-la fácil de encontrar e utilizar por qualquer pessoa;
+- a API apresenta variações reais de resposta e disponibilidade; decida como a interface deve reagir a esses momentos e orientar quem está usando.
 
 ## Referência visual
 
-O [`handoff.png`](./handoff.png) apresenta uma proposta de interface para o desafio.
+O [`handoff.png`](./handoff.png) traz uma proposta de interface como ponto de partida.
 
-A imagem não é uma especificação nem um checklist. Os componentes, estados e comportamentos representados são exemplos. Você pode seguir a proposta, adaptá-la ou questioná-la, desde que atenda às capacidades obrigatórias do enunciado e consiga justificar suas escolhas.
+Ele não é uma especificação fechada nem um checklist: layout, componentes, estados e interações ali representados são apenas exemplos. Você pode seguir a proposta, adaptá-la ou propor outro caminho — o importante é resolver o problema com coerência e saber justificar suas escolhas.
 
 [![Referência visual do desafio: listagem desktop e mobile, formulário de criação e estados da interface](./handoff.png)](./handoff.png)
 
@@ -44,10 +47,10 @@ Trate a API como um serviço externo que você não controla. Não altere o cód
 
 ## Tecnologias
 
-A escolha de linguagem, framework, bibliotecas e ferramentas é livre. A solução deve funcionar em um navegador e incluir instruções simples de execução.
+A escolha de linguagem, framework, bibliotecas, ferramentas e arquitetura é totalmente livre. O único requisito técnico é que a aplicação funcione em um navegador.
 
 ## O que entregar
 
-Siga as regras de entrega do [README principal](../../README.md): código funcional com instruções de execução, `DECISIONS.md`, `AI_USAGE.md` e testes dos fluxos críticos.
+Siga as diretrizes gerais do [README principal](../../README.md) — código funcional, `DECISIONS.md`, `AI_USAGE.md` e testes dos fluxos que considerar críticos.
 
-Sua aplicação deve funcionar bem em telas de celular e de computador e ser acessível: navegável por teclado, com rótulos nos campos e mensagens de erro que leitores de tela consigam ler. Seja criativo para mostrar toda sua experiência, lembrando que não avaliamos quantidade de código nem número de funcionalidades extras.
+Quanto à forma de estruturar e disponibilizar a aplicação para avaliação, entregue o projeto da maneira com que se sentir mais à vontade — desde que quem for avaliar consiga entender e acessar ou executar a sua entrega sem dificuldade.
