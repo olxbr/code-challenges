@@ -4,11 +4,11 @@
 
 Construa a interface web de um **marketplace de anúncios**, onde pessoas podem publicar anúncios e consultar os já publicados.
 
-O enunciado descreve o que a aplicação precisa resolver, mas não existe uma única resposta esperada. Você tem liberdade para usar a criatividade e tomar decisões de experiência, arquitetura e engenharia que façam sentido para a sua solução.
+O enunciado descreve o que a aplicação precisa resolver, mas não existe uma única resposta esperada. Você tem liberdade para usar a criatividade e tomar decisões de experiência, arquitetura e engenharia que façam sentido para a sua solução, desde que bem embasadas e explicadas.
 
 ### 1. Listar anúncios
 
-Permita que a pessoa explore os anúncios fornecidos pela API, combinando:
+Permita que a pessoa usuária explore os anúncios fornecidos pela API, combinando as seguintes funcionalidades:
 
 A listagem deve oferecer:
 
@@ -22,7 +22,7 @@ Você decide como esses controles interagem, como os resultados são exibidos e 
 
 Permita a publicação de um novo anúncio respeitando os campos e regras definidos no contrato da API.
 
-A pessoa deve entender o resultado da operação e conseguir encontrar o anúncio publicado na listagem. Fica a seu critério como conduzir esse fluxo, do preenchimento à exibição na listagem.
+A pessoa usuária deve entender o resultado da operação e conseguir encontrar o anúncio publicado na listagem. Fica a seu critério como conduzir esse fluxo, do preenchimento à exibição na listagem.
 
 ### 3. Experiência de uso
 
