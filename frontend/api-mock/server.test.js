@@ -3,6 +3,16 @@
 const { test, before, after } = require('node:test');
 const assert = require('node:assert/strict');
 const { createServer, loadConfig } = require('./server');
+const SEED = require('./seed/ads.json');
+
+// Os valores esperados saem do próprio seed, para os testes não quebrarem
+// quando os anúncios iniciais mudarem.
+const PAGE_SIZE = 12;
+const TOTAL = SEED.ads.length;
+const countBy = (category) => SEED.ads.filter((ad) => ad.category === category).length;
+const pagesFor = (items, size = PAGE_SIZE) => Math.ceil(items / size);
+const lastPageSize = (items, size = PAGE_SIZE) => items - (pagesFor(items, size) - 1) * size;
+const categoryWith = (predicate) => SEED.categories.find((c) => predicate(countBy(c.id)));
 
 const FAST = {
   errorRate: 0,
@@ -78,21 +88,22 @@ test('GET /v1/ads lista com paginação padrão', async () => {
   const res = await fetch(`${ctx.base}/v1/ads`);
   const body = await res.json();
   assert.equal(res.status, 200);
-  assert.equal(body.data.length, 12);
+  assert.equal(body.data.length, Math.min(PAGE_SIZE, TOTAL));
   assert.equal(body.pagination.page, 1);
-  assert.equal(body.pagination.pageSize, 12);
-  assert.equal(body.pagination.totalItems, 35);
-  assert.equal(body.pagination.totalPages, 3);
+  assert.equal(body.pagination.pageSize, PAGE_SIZE);
+  assert.equal(body.pagination.totalItems, TOTAL);
+  assert.equal(body.pagination.totalPages, pagesFor(TOTAL));
 });
 
 test('GET /v1/ads pagina corretamente a última página', async () => {
-  const body = await (await fetch(`${ctx.base}/v1/ads?page=3`)).json();
-  assert.equal(body.data.length, 11);
+  const last = pagesFor(TOTAL);
+  const body = await (await fetch(`${ctx.base}/v1/ads?page=${last}`)).json();
+  assert.equal(body.data.length, lastPageSize(TOTAL));
 });
 
 test('GET /v1/ads filtra por categoria', async () => {
   const body = await (await fetch(`${ctx.base}/v1/ads?category=moda&pageSize=50`)).json();
-  assert.equal(body.pagination.totalItems, 7);
+  assert.equal(body.pagination.totalItems, countBy('moda'));
   assert.ok(body.data.every((ad) => ad.category === 'moda'));
 });
 
@@ -108,9 +119,13 @@ test('GET /v1/ads busca por descrição e ignora acentos', async () => {
 });
 
 test('GET /v1/ads combina busca e categoria', async () => {
+  const expected = SEED.ads.filter(
+    (ad) => ad.category === 'esportes' && /bicicleta/i.test(`${ad.title} ${ad.description}`),
+  ).length;
   const body = await (await fetch(`${ctx.base}/v1/ads?q=bicicleta&category=esportes`)).json();
-  assert.equal(body.data.length, 1);
-  assert.equal(body.data[0].category, 'esportes');
+  assert.ok(expected >= 1);
+  assert.equal(body.pagination.totalItems, expected);
+  assert.ok(body.data.every((ad) => ad.category === 'esportes'));
 });
 
 test('GET /v1/ads sem resultados devolve lista vazia válida', async () => {
@@ -123,11 +138,54 @@ test('GET /v1/ads sem resultados devolve lista vazia válida', async () => {
 });
 
 test('GET /v1/ads com página além do fim devolve lista vazia', async () => {
-  const res = await fetch(`${ctx.base}/v1/ads?page=99`);
+  const res = await fetch(`${ctx.base}/v1/ads?page=999`);
   const body = await res.json();
   assert.equal(res.status, 200);
   assert.deepEqual(body.data, []);
-  assert.equal(body.pagination.totalPages, 3);
+  assert.equal(body.pagination.totalPages, pagesFor(TOTAL));
+});
+
+test('GET /v1/ads com categoria sem anúncios devolve lista vazia válida', async () => {
+  const empty = categoryWith((n) => n === 0);
+  assert.ok(empty, 'o seed deve ter ao menos uma categoria sem anúncios');
+  const res = await fetch(`${ctx.base}/v1/ads?category=${empty.id}`);
+  const body = await res.json();
+  assert.equal(res.status, 200);
+  assert.deepEqual(body.data, []);
+  assert.equal(body.pagination.totalItems, 0);
+  assert.equal(body.pagination.totalPages, 0);
+});
+
+test('GET /v1/ads pagina dentro de uma categoria sem repetir itens', async () => {
+  const category = categoryWith((n) => n > PAGE_SIZE);
+  assert.ok(category, 'o seed deve ter uma categoria com mais de uma página');
+  const total = countBy(category.id);
+  const ids = [];
+  for (let page = 1; page <= pagesFor(total); page += 1) {
+    const res = await fetch(`${ctx.base}/v1/ads?category=${category.id}&page=${page}`);
+    const body = await res.json();
+    assert.ok(body.data.every((ad) => ad.category === category.id));
+    assert.equal(body.pagination.totalPages, pagesFor(total));
+    ids.push(...body.data.map((ad) => ad.id));
+  }
+  assert.equal(ids.length, total);
+  assert.equal(new Set(ids).size, total);
+});
+
+test('seed: dados consistentes e distribuição desigual entre categorias', () => {
+  const ids = SEED.ads.map((ad) => ad.id);
+  assert.equal(new Set(ids).size, ids.length, 'ids únicos');
+  const dates = SEED.ads.map((ad) => ad.createdAt);
+  assert.equal(new Set(dates).size, dates.length, 'createdAt únicos');
+  const categoryIds = SEED.categories.map((c) => c.id);
+  for (const ad of SEED.ads) {
+    assert.ok(categoryIds.includes(ad.category), ad.id);
+    assert.ok(ad.title.length >= 10 && ad.title.length <= 100, ad.id);
+  }
+  const counts = categoryIds.map(countBy).filter((n) => n > 0);
+  assert.ok(counts.every((n) => n >= 20 && n <= 30), `contagens: ${counts}`);
+  assert.ok(counts.every((n) => n % PAGE_SIZE !== 0), 'nenhuma contagem múltipla do pageSize');
+  assert.ok(categoryIds.some((id) => countBy(id) === 0), 'ao menos uma categoria vazia');
 });
 
 test('GET /v1/ads rejeita parâmetros inválidos', async () => {
@@ -149,8 +207,21 @@ test('POST /v1/ads cria anúncio e o expõe na listagem', async () => {
     assert.ok(!Number.isNaN(Date.parse(created.createdAt)));
 
     const list = await (await fetch(`${local.base}/v1/ads`)).json();
-    assert.equal(list.pagination.totalItems, 36);
+    assert.equal(list.pagination.totalItems, TOTAL + 1);
     assert.equal(list.data[0].id, created.id);
+  } finally {
+    await local.stop();
+  }
+});
+
+test('POST /v1/ads aceita categoria que não tem anúncios no seed', async () => {
+  const empty = categoryWith((n) => n === 0);
+  const local = await start();
+  try {
+    const res = await post(local.base, { ...validAd, category: empty.id });
+    assert.equal(res.status, 201);
+    const list = await (await fetch(`${local.base}/v1/ads?category=${empty.id}`)).json();
+    assert.equal(list.pagination.totalItems, 1);
   } finally {
     await local.stop();
   }
@@ -207,7 +278,7 @@ test('500 em criação não persiste o anúncio', async () => {
     assert.equal((await post(base, validAd)).status, 500);
     config.errorRate = 0; // a mesma instância passa a responder normalmente
     const body = await (await fetch(`${base}/v1/ads?pageSize=50`)).json();
-    assert.equal(body.pagination.totalItems, 35);
+    assert.equal(body.pagination.totalItems, TOTAL);
   } finally {
     await new Promise((resolve) => server.close(resolve));
   }
@@ -235,7 +306,7 @@ test('reiniciar o servidor restaura apenas o seed', async () => {
   const second = await start();
   try {
     const body = await (await fetch(`${second.base}/v1/ads`)).json();
-    assert.equal(body.pagination.totalItems, 35);
+    assert.equal(body.pagination.totalItems, TOTAL);
   } finally {
     await second.stop();
   }

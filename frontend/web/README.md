@@ -50,4 +50,4 @@ A escolha de linguagem, framework, bibliotecas e ferramentas é livre. A soluç�
 
 Siga as regras de entrega do [README principal](../../README.md): código funcional com instruções de execução, `DECISIONS.md`, `AI_USAGE.md` e testes dos fluxos críticos.
 
-Sua aplicação deve ser utilizável em telas de celular e de computador, pense em todos os tipos de público e seja criativo para mostrar toda sua experiência deixando a pagina facil de acessar por qualquer um.
+Sua aplicação deve funcionar bem em telas de celular e de computador e ser acessível: navegável por teclado, com rótulos nos campos e mensagens de erro que leitores de tela consigam ler. Seja criativo para mostrar toda sua experiência, lembrando que não avaliamos quantidade de código nem número de funcionalidades extras.

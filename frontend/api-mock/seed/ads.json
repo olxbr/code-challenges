@@ -19,6 +19,10 @@
     {
       "id": "moda",
       "label": "Moda"
+    },
+    {
+      "id": "instrumentos-musicais",
+      "label": "Instrumentos musicais"
     }
   ],
   "ads": [
@@ -371,6 +375,906 @@
       "imageUrl": "https://picsum.photos/seed/ad-035/600/400",
       "location": "Florianópolis, SC",
       "createdAt": "2026-11-05T07:00:00.000Z"
+    },
+    {
+      "id": "ad-036",
+      "title": "Luvas de boxe 12oz couro sintético",
+      "description": "Luvas com fechamento em velcro e boa espuma interna, usadas em poucos treinos.",
+      "price": 130,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-036/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "id": "ad-037",
+      "title": "Tablet 10 polegadas 64GB com capa",
+      "description": "Tablet com tela nítida e bateria que dura o dia todo, acompanha capa protetora.",
+      "price": 780,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-037/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-11-04T17:00:00.000Z"
+    },
+    {
+      "id": "ad-038",
+      "title": "Calça jeans skinny feminina tamanho 40",
+      "description": "Calça com elastano e lavagem escura, usada poucas vezes.",
+      "price": 90,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-038/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-11-04T10:00:00.000Z"
+    },
+    {
+      "id": "ad-039",
+      "title": "Cômoda branca com 4 gavetas",
+      "description": "Cômoda em MDF com corrediças metálicas, sem riscos ou marcas.",
+      "price": 450,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-039/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-11-04T03:00:00.000Z"
+    },
+    {
+      "id": "ad-040",
+      "title": "Moto 300cc 2020 com baixa quilometragem",
+      "description": "Moto com revisões na concessionária, pneus novos e manual do proprietário.",
+      "price": 17900,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-040/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-11-03T20:00:00.000Z"
+    },
+    {
+      "id": "ad-041",
+      "title": "Kit de 3 faixas elásticas de resistência",
+      "description": "Faixas de intensidades leve, média e forte, acompanham bolsa de transporte.",
+      "price": 70,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-041/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-11-03T13:00:00.000Z"
+    },
+    {
+      "id": "ad-042",
+      "title": "Smart TV 43 polegadas 4K",
+      "description": "TV com aplicativos de streaming instalados, controle remoto e suporte de parede.",
+      "price": 1700,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-042/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-11-03T06:00:00.000Z"
+    },
+    {
+      "id": "ad-043",
+      "title": "Camisa social slim masculina branca G",
+      "description": "Camisa de algodão fácil de passar, sem manchas, tamanho G.",
+      "price": 75,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-043/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-11-02T23:00:00.000Z"
+    },
+    {
+      "id": "ad-044",
+      "title": "Cortina blackout 2,80m x 1,80m cinza",
+      "description": "Cortina grossa com argolas, bloqueia a luz e reduz o barulho.",
+      "price": 120,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-044/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-11-02T16:00:00.000Z"
+    },
+    {
+      "id": "ad-045",
+      "title": "Pneu aro 14 175/70 par seminovo",
+      "description": "Dois pneus com 80% de vida útil, sem cortes ou bolhas.",
+      "price": 280,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-045/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "ad-046",
+      "title": "Skate completo shape 8.0 com rolamentos",
+      "description": "Skate montado, lixa nova e rodas macias, ideal para quem está começando.",
+      "price": 280,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-046/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-11-02T02:00:00.000Z"
+    },
+    {
+      "id": "ad-047",
+      "title": "Caixa de som Bluetooth à prova d'água",
+      "description": "Caixa portátil com bateria de 12 horas e graves reforçados.",
+      "price": 260,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-047/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-11-01T19:00:00.000Z"
+    },
+    {
+      "id": "ad-048",
+      "title": "Bota de couro cano curto número 37",
+      "description": "Bota com solado antiderrapante e forro macio, ótima conservação.",
+      "price": 210,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-048/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "ad-049",
+      "title": "Jogo de panelas antiaderentes com 5 peças",
+      "description": "Conjunto com tampas de vidro, revestimento em bom estado.",
+      "price": 220,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-049/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-11-01T05:00:00.000Z"
+    },
+    {
+      "id": "ad-050",
+      "title": "Mochila de hidratação para trilha 2L",
+      "description": "Mochila leve com bolsa de água e bolsos laterais, pouco uso.",
+      "price": 160,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-050/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-31T22:00:00.000Z"
+    },
+    {
+      "id": "ad-051",
+      "title": "Mouse sem fio ergonômico recarregável",
+      "description": "Mouse com sensor preciso, conexão por receptor USB e bateria recarregável.",
+      "price": 95,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-051/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-31T15:00:00.000Z"
+    },
+    {
+      "id": "ad-052",
+      "title": "Suporte para celular de painel com carregador",
+      "description": "Suporte com carregamento por indução e fixação por ventosa.",
+      "price": 70,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-052/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-31T08:00:00.000Z"
+    },
+    {
+      "id": "ad-053",
+      "title": "Mochila escolar reforçada com compartimento para notebook",
+      "description": "Mochila resistente, com várias divisórias e alças acolchoadas.",
+      "price": 120,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-053/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-31T01:00:00.000Z"
+    },
+    {
+      "id": "ad-054",
+      "title": "Bola de basquete tamanho 7 couro sintético",
+      "description": "Bola com boa aderência para quadra interna e externa.",
+      "price": 110,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-054/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-30T18:00:00.000Z"
+    },
+    {
+      "id": "ad-055",
+      "title": "Ventilador de coluna com controle remoto",
+      "description": "Ventilador silencioso com três velocidades e temporizador.",
+      "price": 180,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-055/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-30T11:00:00.000Z"
+    },
+    {
+      "id": "ad-056",
+      "title": "Roteador Wi-Fi 6 dual band",
+      "description": "Roteador com bom alcance, fácil configuração e quatro portas de rede.",
+      "price": 240,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-056/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-30T04:00:00.000Z"
+    },
+    {
+      "id": "ad-057",
+      "title": "Corda de pular com rolamento e contador",
+      "description": "Corda ajustável com cabos emborrachados e contador de saltos digital.",
+      "price": 55,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-057/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-29T21:00:00.000Z"
+    },
+    {
+      "id": "ad-058",
+      "title": "Cinto de couro legítimo preto tamanho 95",
+      "description": "Cinto com fivela prateada, pouco usado e sem desgastes.",
+      "price": 60,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-058/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-29T14:00:00.000Z"
+    },
+    {
+      "id": "ad-059",
+      "title": "Baú de moto 45 litros com base",
+      "description": "Baú resistente com chave, acompanha base de fixação.",
+      "price": 230,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-059/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-29T07:00:00.000Z"
+    },
+    {
+      "id": "ad-060",
+      "title": "Smartwatch com monitor de batimentos",
+      "description": "Relógio inteligente com GPS, notificações e pulseira extra.",
+      "price": 350,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-060/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "id": "ad-061",
+      "title": "Cama box casal com colchão de molas",
+      "description": "Conjunto em ótimo estado, colchão firme e sem manchas.",
+      "price": 1100,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-061/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-28T17:00:00.000Z"
+    },
+    {
+      "id": "ad-062",
+      "title": "Barraca de camping 4 pessoas impermeável",
+      "description": "Barraca com sobreteto, montagem rápida e bolsa de transporte.",
+      "price": 420,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-062/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-28T10:00:00.000Z"
+    },
+    {
+      "id": "ad-063",
+      "title": "Vestido midi estampado floral tamanho M",
+      "description": "Vestido leve de viscose, ideal para o verão.",
+      "price": 85,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-063/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-28T03:00:00.000Z"
+    },
+    {
+      "id": "ad-064",
+      "title": "Carro sedã 2.0 automático 2018",
+      "description": "Carro único dono, revisões em dia, bancos de couro e multimídia.",
+      "price": 68000,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-064/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-27T20:00:00.000Z"
+    },
+    {
+      "id": "ad-065",
+      "title": "Impressora multifuncional com Wi-Fi",
+      "description": "Impressora com scanner e cópia, acompanha cartuchos quase cheios.",
+      "price": 400,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-065/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-27T13:00:00.000Z"
+    },
+    {
+      "id": "ad-066",
+      "title": "Colchonete de ginástica 10mm antiderrapante",
+      "description": "Colchonete firme, fácil de limpar, ótimo para pilates e alongamento.",
+      "price": 65,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-066/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-27T06:00:00.000Z"
+    },
+    {
+      "id": "ad-067",
+      "title": "Mesa de jantar redonda para 4 lugares",
+      "description": "Mesa com tampo de vidro e base de madeira clara.",
+      "price": 600,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-067/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-26T23:00:00.000Z"
+    },
+    {
+      "id": "ad-068",
+      "title": "Tênis casual branco número 40",
+      "description": "Tênis de couro sintético fácil de limpar, usado poucas vezes.",
+      "price": 140,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-068/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-26T16:00:00.000Z"
+    },
+    {
+      "id": "ad-069",
+      "title": "Webcam Full HD com microfone embutido",
+      "description": "Webcam com foco automático, ideal para reuniões e aulas online.",
+      "price": 130,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-069/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-26T09:00:00.000Z"
+    },
+    {
+      "id": "ad-070",
+      "title": "Patins inline ajustáveis tamanho 36 ao 39",
+      "description": "Patins com quatro rodas, ajuste de tamanho e kit de proteção incluso.",
+      "price": 230,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-070/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-26T02:00:00.000Z"
+    },
+    {
+      "id": "ad-071",
+      "title": "Capa de proteção para carro tamanho G",
+      "description": "Capa impermeável com forro interno e elástico nas laterais.",
+      "price": 110,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-071/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-25T19:00:00.000Z"
+    },
+    {
+      "id": "ad-072",
+      "title": "Kit de 6 almofadas decorativas com capas",
+      "description": "Almofadas com capas laváveis em tons neutros.",
+      "price": 140,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-072/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-25T12:00:00.000Z"
+    },
+    {
+      "id": "ad-073",
+      "title": "Blazer feminino alfaiataria preto 42",
+      "description": "Blazer com forro completo e botões revestidos, ótimo para trabalho.",
+      "price": 160,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-073/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-25T05:00:00.000Z"
+    },
+    {
+      "id": "ad-074",
+      "title": "Carregador portátil 20000mAh",
+      "description": "Power bank com duas saídas USB e carga rápida, funcionando perfeitamente.",
+      "price": 120,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-074/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-24T22:00:00.000Z"
+    },
+    {
+      "id": "ad-075",
+      "title": "Kit de tacos de golfe iniciante com bolsa",
+      "description": "Conjunto com sete tacos e bolsa de apoio, em bom estado.",
+      "price": 1100,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-075/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-24T15:00:00.000Z"
+    },
+    {
+      "id": "ad-076",
+      "title": "Kit de ferramentas automotivas com 94 peças",
+      "description": "Maleta completa com soquetes, chaves e acessórios.",
+      "price": 190,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-076/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-24T08:00:00.000Z"
+    },
+    {
+      "id": "ad-077",
+      "title": "Aparador de madeira com duas portas",
+      "description": "Aparador rústico com nichos internos, ótimo para sala ou corredor.",
+      "price": 380,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-077/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-24T01:00:00.000Z"
+    },
+    {
+      "id": "ad-078",
+      "title": "Carteira masculina de couro com porta cartões",
+      "description": "Carteira compacta com compartimento para moedas e vários cartões.",
+      "price": 70,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-078/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-23T18:00:00.000Z"
+    },
+    {
+      "id": "ad-079",
+      "title": "Notebook gamer 16GB placa dedicada",
+      "description": "Notebook com tela de 144Hz, ótimo desempenho em jogos e edição de vídeo.",
+      "price": 4300,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-079/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-23T11:00:00.000Z"
+    },
+    {
+      "id": "ad-080",
+      "title": "Luva de goleiro profissional tamanho 9",
+      "description": "Luva com látex de alta aderência e proteção nos dedos.",
+      "price": 150,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-080/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-23T04:00:00.000Z"
+    },
+    {
+      "id": "ad-081",
+      "title": "Capacete de ciclismo tamanho M com viseira",
+      "description": "Capacete ventilado com regulagem traseira, sem batidas.",
+      "price": 140,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-081/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-22T21:00:00.000Z"
+    },
+    {
+      "id": "ad-082",
+      "title": "Drone com câmera 4K e duas baterias",
+      "description": "Drone dobrável com estabilizador, controle remoto e maleta de transporte.",
+      "price": 2100,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-082/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-22T14:00:00.000Z"
+    },
+    {
+      "id": "ad-083",
+      "title": "Moletom canguru unissex cinza tamanho G",
+      "description": "Moletom grosso, macio por dentro e com capuz ajustável.",
+      "price": 95,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-083/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-22T07:00:00.000Z"
+    },
+    {
+      "id": "ad-084",
+      "title": "Quadro decorativo abstrato 90x60cm",
+      "description": "Quadro em tela com moldura preta, pronto para pendurar.",
+      "price": 160,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-084/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "id": "ad-085",
+      "title": "Tapete automotivo de borracha 5 peças",
+      "description": "Tapetes sob medida para hatch compacto, fáceis de lavar.",
+      "price": 80,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-085/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-21T17:00:00.000Z"
+    },
+    {
+      "id": "ad-086",
+      "title": "Mesa de ping pong dobrável com rodinhas",
+      "description": "Mesa oficial dobrável, acompanha rede e duas raquetes.",
+      "price": 850,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-086/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-21T10:00:00.000Z"
+    },
+    {
+      "id": "ad-087",
+      "title": "Projetor Full HD com tripé",
+      "description": "Projetor com entrada HDMI e boa luminosidade para sala escura.",
+      "price": 900,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-087/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-21T03:00:00.000Z"
+    },
+    {
+      "id": "ad-088",
+      "title": "Sandália rasteira de couro número 36",
+      "description": "Sandália confortável e leve, quase sem marcas de uso.",
+      "price": 55,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-088/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-20T20:00:00.000Z"
+    },
+    {
+      "id": "ad-089",
+      "title": "Aquecedor elétrico de ambiente com termostato",
+      "description": "Aquecedor com duas potências e proteção contra superaquecimento.",
+      "price": 170,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-089/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-20T13:00:00.000Z"
+    },
+    {
+      "id": "ad-090",
+      "title": "Câmera de ré com tela espelho retrovisor",
+      "description": "Kit com câmera e tela, instalação simples e imagem nítida.",
+      "price": 220,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-090/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-20T06:00:00.000Z"
+    },
+    {
+      "id": "ad-091",
+      "title": "Remo seco para treino em casa",
+      "description": "Equipamento com resistência magnética e monitor de tempo e distância.",
+      "price": 1500,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-091/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-19T23:00:00.000Z"
+    },
+    {
+      "id": "ad-092",
+      "title": "Monitor ultrawide 29 polegadas",
+      "description": "Monitor com proporção 21:9, ideal para trabalho e planilhas, sem defeitos.",
+      "price": 1050,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-092/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-19T16:00:00.000Z"
+    },
+    {
+      "id": "ad-093",
+      "title": "Terno completo azul marinho tamanho 48",
+      "description": "Terno de lã fria com calça e paletó, ajustado uma única vez.",
+      "price": 480,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-093/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-19T09:00:00.000Z"
+    },
+    {
+      "id": "ad-094",
+      "title": "Poltrona reclinável de couro sintético",
+      "description": "Poltrona confortável com apoio para os pés, sem rasgos.",
+      "price": 520,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-094/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-19T02:00:00.000Z"
+    },
+    {
+      "id": "ad-095",
+      "title": "Caneleira de futsal par tamanho P",
+      "description": "Caneleiras leves com tornozeleira ajustável, pouco usadas.",
+      "price": 45,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-095/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-18T19:00:00.000Z"
+    },
+    {
+      "id": "ad-096",
+      "title": "Leitor de e-books com tela de tinta digital",
+      "description": "Leitor com luz embutida, 8GB de memória e bateria de semanas.",
+      "price": 520,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-096/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-18T12:00:00.000Z"
+    },
+    {
+      "id": "ad-097",
+      "title": "Scooter elétrica dobrável 350W",
+      "description": "Scooter com autonomia de 25 km, freio a disco e luz de LED.",
+      "price": 2600,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-097/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-18T05:00:00.000Z"
+    },
+    {
+      "id": "ad-098",
+      "title": "Jaqueta corta-vento impermeável tamanho M",
+      "description": "Jaqueta leve com capuz embutido e bolsos com zíper.",
+      "price": 130,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-098/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-17T22:00:00.000Z"
+    },
+    {
+      "id": "ad-099",
+      "title": "Pranchão de stand up paddle inflável 10'6\"",
+      "description": "Prancha inflável com remo, bomba e mochila, usada em poucos passeios.",
+      "price": 1900,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-099/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-17T15:00:00.000Z"
+    },
+    {
+      "id": "ad-100",
+      "title": "Organizador de armário com 6 divisórias",
+      "description": "Organizador de tecido, prático para roupas e acessórios.",
+      "price": 40,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-100/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-17T08:00:00.000Z"
+    },
+    {
+      "id": "ad-101",
+      "title": "Fone de ouvido com fio estúdio profissional",
+      "description": "Fone fechado com almofadas confortáveis e cabo removível.",
+      "price": 330,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-101/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-17T01:00:00.000Z"
+    },
+    {
+      "id": "ad-102",
+      "title": "Colete de peso ajustável 10kg",
+      "description": "Colete com blocos removíveis para treino de força e corrida.",
+      "price": 190,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-102/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-16T18:00:00.000Z"
+    },
+    {
+      "id": "ad-103",
+      "title": "Kit com 5 camisetas básicas de algodão P",
+      "description": "Camisetas em cores variadas, lavadas poucas vezes.",
+      "price": 80,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-103/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-16T11:00:00.000Z"
+    },
+    {
+      "id": "ad-104",
+      "title": "Camionete cabine dupla diesel 2015",
+      "description": "Camionete com 4x4, ar condicionado e revisão completa recente.",
+      "price": 89000,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-104/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-16T04:00:00.000Z"
+    },
+    {
+      "id": "ad-105",
+      "title": "Aspirador robô com mapeamento",
+      "description": "Aspirador com reservatório para água, programação por aplicativo e base de carga.",
+      "price": 1200,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-105/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-15T21:00:00.000Z"
+    },
+    {
+      "id": "ad-106",
+      "title": "Geladeira duplex frost free 380 litros",
+      "description": "Geladeira silenciosa, funcionando perfeitamente e bem conservada.",
+      "price": 1900,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-106/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-15T14:00:00.000Z"
+    },
+    {
+      "id": "ad-107",
+      "title": "Tênis de futsal solado de borracha número 41",
+      "description": "Tênis com ótima aderência, usado por dois meses.",
+      "price": 120,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-107/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-15T07:00:00.000Z"
+    },
+    {
+      "id": "ad-108",
+      "title": "Bolsa transversal pequena preta com corrente",
+      "description": "Bolsa com fecho magnético e alça removível, em ótimo estado.",
+      "price": 110,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-108/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "id": "ad-109",
+      "title": "Calotas aro 15 jogo com quatro peças",
+      "description": "Calotas universais em ótimo estado, sem rachaduras.",
+      "price": 75,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-109/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-14T17:00:00.000Z"
+    },
+    {
+      "id": "ad-110",
+      "title": "Controle sem fio para console com carregador",
+      "description": "Controle em ótimo estado com base de carga e cabo extra.",
+      "price": 250,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-110/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-14T10:00:00.000Z"
+    },
+    {
+      "id": "ad-111",
+      "title": "Banco de supino regulável com suporte",
+      "description": "Banco com várias posições de ajuste, estrutura de aço reforçada.",
+      "price": 560,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-111/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-14T03:00:00.000Z"
+    },
+    {
+      "id": "ad-112",
+      "title": "Escrivaninha com prateleira e gaveta",
+      "description": "Escrivaninha compacta em MDF, ideal para quartos e home office.",
+      "price": 330,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-112/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-13T20:00:00.000Z"
+    },
+    {
+      "id": "ad-113",
+      "title": "Chapéu panamá de palha com aba média",
+      "description": "Chapéu leve, ideal para praia e passeios ao ar livre.",
+      "price": 65,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-113/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-13T13:00:00.000Z"
+    },
+    {
+      "id": "ad-114",
+      "title": "HD externo 2TB USB 3.0",
+      "description": "HD portátil com pouco uso, ideal para backup de fotos e documentos.",
+      "price": 380,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-114/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-13T06:00:00.000Z"
+    },
+    {
+      "id": "ad-115",
+      "title": "Kimono de judô branco tamanho A2",
+      "description": "Kimono de trançado duplo, acompanha faixa branca.",
+      "price": 180,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-115/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-12T23:00:00.000Z"
+    },
+    {
+      "id": "ad-116",
+      "title": "Bomba de ar elétrica portátil para pneus",
+      "description": "Compressor 12V com manômetro digital e desligamento automático.",
+      "price": 120,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-116/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-12T16:00:00.000Z"
+    },
+    {
+      "id": "ad-117",
+      "title": "Jogo de cama queen 400 fios com 4 peças",
+      "description": "Jogo de algodão egípcio macio, usado poucas vezes.",
+      "price": 230,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-117/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-12T09:00:00.000Z"
+    },
+    {
+      "id": "ad-118",
+      "title": "Pijama de flanela feminino tamanho M",
+      "description": "Conjunto de calça e camisa de manga longa, bem quentinho.",
+      "price": 50,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-118/600/400",
+      "location": "Curitiba, PR",
+      "createdAt": "2026-10-12T02:00:00.000Z"
+    },
+    {
+      "id": "ad-119",
+      "title": "Microfone condensador USB com suporte",
+      "description": "Microfone para podcast e gravações, acompanha tripé de mesa e filtro.",
+      "price": 290,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-119/600/400",
+      "location": "Porto Alegre, RS",
+      "createdAt": "2026-10-11T19:00:00.000Z"
+    },
+    {
+      "id": "ad-120",
+      "title": "Vara de pesca telescópica com molinete",
+      "description": "Conjunto para pesca de rio, acompanha linha e anzóis.",
+      "price": 210,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-120/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-11T12:00:00.000Z"
+    },
+    {
+      "id": "ad-121",
+      "title": "Banco de couro para moto com ajuste de altura",
+      "description": "Banco confortável com costura reforçada e fácil encaixe.",
+      "price": 260,
+      "category": "veiculos",
+      "imageUrl": "https://picsum.photos/seed/ad-121/600/400",
+      "location": "Florianópolis, SC",
+      "createdAt": "2026-10-11T05:00:00.000Z"
+    },
+    {
+      "id": "ad-122",
+      "title": "Vaso de cerâmica grande para plantas",
+      "description": "Vaso esmaltado azul com prato de apoio, sem trincas.",
+      "price": 90,
+      "category": "casa-decoracao",
+      "imageUrl": "https://picsum.photos/seed/ad-122/600/400",
+      "location": "Campinas, SP",
+      "createdAt": "2026-10-10T22:00:00.000Z"
+    },
+    {
+      "id": "ad-123",
+      "title": "Macacão jeans feminino tamanho 38",
+      "description": "Macacão com bolsos frontais, lavagem média, ótimo estado.",
+      "price": 120,
+      "category": "moda",
+      "imageUrl": "https://picsum.photos/seed/ad-123/600/400",
+      "location": "Belo Horizonte, MG",
+      "createdAt": "2026-10-10T15:00:00.000Z"
+    },
+    {
+      "id": "ad-124",
+      "title": "Adaptador hub USB-C com 7 portas",
+      "description": "Hub com HDMI, leitor de cartão e entradas USB, funcionando perfeitamente.",
+      "price": 150,
+      "category": "eletronicos",
+      "imageUrl": "https://picsum.photos/seed/ad-124/600/400",
+      "location": "Santos, SP",
+      "createdAt": "2026-10-10T08:00:00.000Z"
+    },
+    {
+      "id": "ad-125",
+      "title": "Óculos de natação com proteção UV",
+      "description": "Óculos antiembaçante com vedação macia e regulagem de tira.",
+      "price": 60,
+      "category": "esportes",
+      "imageUrl": "https://picsum.photos/seed/ad-125/600/400",
+      "location": "São Paulo, SP",
+      "createdAt": "2026-10-10T01:00:00.000Z"
     }
   ]
 }

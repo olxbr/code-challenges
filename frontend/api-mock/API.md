@@ -57,6 +57,7 @@ Os anúncios criados ficam apenas na memória do processo. Reiniciar o servidor 
 | `veiculos` | Veículos |
 | `esportes` | Esportes |
 | `moda` | Moda |
+| `instrumentos-musicais` | Instrumentos musicais |
 
 ## Endpoints
 
