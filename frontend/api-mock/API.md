@@ -152,5 +152,5 @@ curl -X POST http://localhost:8788/v1/ads \
 
 ## Observações
 
-- As imagens do seed usam `picsum.photos` e exigem acesso à internet.
+- As imagens do seed são URLs externas e exigem acesso à internet.
 - Os testes do mock rodam com `node --test`.
