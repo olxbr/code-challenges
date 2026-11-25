@@ -54,3 +54,5 @@ A escolha de linguagem, framework, bibliotecas, ferramentas e arquitetura é tot
 Siga as diretrizes gerais do [README principal](../../README.md) — código funcional, `DECISIONS.md`, `AI_USAGE.md` e testes dos fluxos que considerar críticos.
 
 Quanto à forma de estruturar e disponibilizar a aplicação para avaliação, entregue o projeto da maneira com que se sentir mais à vontade — desde que quem for avaliar consiga entender e acessar ou executar a sua entrega sem dificuldade.
+
+A aplicação deve consumir a API por requisições HTTP, lidando com os problemas que ela apresenta sem corrigi-los nem contorná-los no mock. Use sua experiência para tratar esses comportamentos no front; existem várias formas, cada uma com seus tradeoffs, e queremos entender a sua escolha. Não use os dados do mock diretamente no código da aplicação. O endereço da API deve ser configurável, porque vamos executar sua entrega contra a nossa instância do mock. Publicar a aplicação é livre e faz parte da avaliação, da forma que preferir.
