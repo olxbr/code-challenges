@@ -13,6 +13,7 @@ Não buscamos a solução perfeita. Buscamos uma solução que você entende, sa
 Escolha a trilha correspondente à vaga e siga as instruções do respectivo README:
 
 - [Backend](./backend/README.md)
+- [Frontend](./frontend/README.md)
 
 ## Sobre o uso de IA
 
